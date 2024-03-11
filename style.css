@@ -1,0 +1,53 @@
+/* CSS 
+ADD BASIC STYLES */
+
+/* color
+#090b0d
+#111314
+#6947ff
+ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #111314;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+header {
+    background-color: #090b0d;
+    margin-bottom: 1%;
+    font-family: "Tajawal", monospace;
+    font-weight: 500;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 300%;
+}
+
+.box {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5%;
+    background-color: #1e2122;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 2px 10px 10px #1e2122;
+    border-left: solid #6947ff 5px;
+    /* border-right: solid #6947ff 5px; */
+}
